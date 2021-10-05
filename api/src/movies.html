@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movies</title>
+    
+</head>
+<body>
+    
+    <header>
+        
+        <div class="logo">
+             <img src="img/cap.png" />                       
+             <div class="menu-itens">
+                <a href="movies.html"> Home </a>                 
+        </div> </div>
+
+<!-- Campo para busca de filmes -->
+        <form id="form">
+            <input type="text" placeholder="Search..." id="search" class="search">
+        </form>       
+                            
+    </header>
+    
+    
+           
+    <main id="main">      
+     
+    </main>
+    
+<!-- alerta -->
+<script>
+    function funcao1()
+    {
+    alert("Mensagem enviada com sucesso!");
+    }
+    </script>
+
+<header>
+    
+
+    
+   <div class="logo">
+    <form action="./comentario" method="POST">
+        <fieldset>
+            <legend class="cor_coment"> Envie seu comentário </legend>
+          <label class="cor_coment" > Nome:</label>
+          <input class="msg" name="nome" type="text"> 
+           <label class="cor_coment">Comentário:</label>
+          <textarea class="msg" rows="5" cols="33" name="descricao" type="text"></textarea> 
+           <button type="submit"  onclick="funcao1()" value="Exibir Alert"> Send</button>
+
+  </fieldset> 
+        
+    </form>
+</div>
+
+<br>
+
+ </header>
+ <div class="logo"> 
+    <h1> Comentários</h1> 
+</div>  
+<br>
+
+  
+ <div >
+    <div id="posts-container"></div> 
+</div>
+
+ <div class="loader"></div>
+ 
+ 
+
+
+    <script src="script.js"> </script>
+    
+
+
+</body>
+</html>
