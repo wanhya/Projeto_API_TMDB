@@ -1,13 +1,12 @@
 const express = require('express');
 const mysql = require('mysql');
-//const knex = require('knex');
+
 const app = express();
 
 const path = require('path');
 const bodyparser = require('body-parser')
 const initial_path = path.join(__dirname, "");
-//const database = require('./db');
-//const { databaseconnection } = require('./conexao');
+
 
 const connection = mysql.createConnection( {
     host:'172.17.0.2',
@@ -54,27 +53,10 @@ app.post('/comentario', async(req, res) => {
         res.redirect('/');
     });
     
-   // res.send(results);
+  
         
 });
 
-
-   
-
-
-/*app.post('/usuario', async (req, res) => {
-    const coment = await database.salvarcomentario ({
-        nome: req.body.nome,
-        sobrenome: req.body.sobrenome
-        
-    }).then(function(){
-       
-       res.redirect('/')
-        })
-            
-    res.send(coment) 
-    
-}) */
 
 
 app.use((req, res) => {

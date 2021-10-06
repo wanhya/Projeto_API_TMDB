@@ -72,7 +72,7 @@ function showMovies(data){
 
 
 
-//let page = 1
+
 //comentário na tela 
 
 const getPosts = async () => {
