@@ -1,6 +1,6 @@
 # Projeto TMDB
 
-Este projeto consiste na criação de um site, consumindo a API do The Movie Database (conhecido como TMDb) é uma base de dados grátis <br>
+Este projeto consiste na criação de um site, consumindo a API do The Movie Database (conhecido como TMDb) que é uma base de dados grátis
 e de código aberto sobre Filmes e Séries de TV. O site deve exibir uma lista de filmes e uma tela com os detalhes do filme escolhido. 
 Ele conta também com um campo de buscas e um espaço para inserir e visualizar comentários. 
 
